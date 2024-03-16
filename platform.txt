@@ -1,0 +1,5 @@
+platform related functions needed
+
+    platform.system() - Gives the system like Linux , or windows.
+    platform.machine() - Gives the machine architecture like x86-64, x64.
+    platform.platform() - Same as machine().

@@ -1,0 +1,52 @@
+(
+2024:03:16-10:41:59-6
+PING google.com (142.250.196.46) 56(84) bytes of data.
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=1 ttl=118 time=13.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=2 ttl=118 time=105 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=3 ttl=118 time=95.0 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=4 ttl=118 time=41.7 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=5 ttl=118 time=125 ms
+
+--- google.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4006ms
+rtt min/avg/max/mdev = 13.263/76.082/125.025/41.806 ms
+)
+(
+2024:03:16-10:42:08-6
+PING duckduckgo.com (20.204.244.192) 56(84) bytes of data.
+64 bytes from 20.204.244.192 (20.204.244.192): icmp_seq=1 ttl=115 time=916 ms
+64 bytes from 20.204.244.192 (20.204.244.192): icmp_seq=2 ttl=115 time=272 ms
+64 bytes from 20.204.244.192 (20.204.244.192): icmp_seq=3 ttl=115 time=125 ms
+64 bytes from 20.204.244.192 (20.204.244.192): icmp_seq=4 ttl=115 time=54.3 ms
+64 bytes from 20.204.244.192 (20.204.244.192): icmp_seq=5 ttl=115 time=35.0 ms
+
+--- duckduckgo.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 8495ms
+rtt min/avg/max/mdev = 35.029/280.373/915.615/328.365 ms
+)
+(
+2024:03:16-10:42:25-6
+PING example.com (93.184.216.34) 56(84) bytes of data.
+64 bytes from 93.184.216.34 (93.184.216.34): icmp_seq=1 ttl=51 time=260 ms
+64 bytes from 93.184.216.34 (93.184.216.34): icmp_seq=2 ttl=51 time=399 ms
+64 bytes from 93.184.216.34: icmp_seq=3 ttl=51 time=317 ms
+64 bytes from 93.184.216.34 (93.184.216.34): icmp_seq=4 ttl=51 time=284 ms
+64 bytes from 93.184.216.34 (93.184.216.34): icmp_seq=5 ttl=51 time=305 ms
+
+--- example.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 16748ms
+rtt min/avg/max/mdev = 260.237/313.048/399.093/47.195 ms
+)
+(
+2024:03:16-10:42:29-6
+PING brave.com (108.158.46.102) 56(84) bytes of data.
+64 bytes from server-108-158-46-102.bom78.r.cloudfront.net (108.158.46.102): icmp_seq=1 ttl=247 time=26.3 ms
+64 bytes from server-108-158-46-102.bom78.r.cloudfront.net (108.158.46.102): icmp_seq=2 ttl=247 time=26.3 ms
+64 bytes from server-108-158-46-102.bom78.r.cloudfront.net (108.158.46.102): icmp_seq=3 ttl=247 time=1908 ms
+64 bytes from server-108-158-46-102.bom78.r.cloudfront.net (108.158.46.102): icmp_seq=4 ttl=247 time=880 ms
+64 bytes from server-108-158-46-102.bom78.r.cloudfront.net (108.158.46.102): icmp_seq=5 ttl=247 time=79.1 ms
+
+--- brave.com ping statistics ---
+5 packets transmitted, 5 received, 0% packet loss, time 4043ms
+rtt min/avg/max/mdev = 26.253/583.848/1907.574/737.094 ms, pipe 2
+)

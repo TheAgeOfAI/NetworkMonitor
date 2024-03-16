@@ -1,0 +1,34 @@
+Regular expressions in the re module:
+
+The special characters are:
+
+    . - this matches any character except new line.
+    ^ - matches the start of the string.
+    $ - matches the end of the string or just before the new line.
+    * - Causes the resulting regular expression(RE) to match 0 or more repetitions of the preceding RE.
+    + - Causes the resulting RE to match 1 or more repetitions of the preceding RE.
+    ? - Causes the resulting RE to match 0 or 1 repetitions of the preceding RE.
+    {m} - Specifies that exactly m copies of the previous RE should be matches.
+    (m,n}  - Causes the resulting RE to match from m to n repetitions of the preceding RE, attempting to match as many repetitions as possible.
+    {m,n}? - Causes the resulting RE to match from m to n repetitions of the preceding RE, attempting to match as few repetitions as possible
+    \ - escapes special characters.
+    [] - Used to indicate a set of characters.
+    | - A(RE)|B(RE) , creates a regular expression that will match either A or B.
+    (...) - Matches whatever regular expression is inside the parentheses, and indicates the start and end of a group.
+    (?...) - This is an extension notation, Extensions usually do not create a new group.
+    (?aiLmsux) -
+            re.A (ASCII-only matching)
+            re.I (ignore case)
+            re.L (locale dependent)
+            re.M (multi-line)
+            re.S (dot matches all)
+            re.U (Unicode matching)
+            re.X (verbose)
+
+
+    re.compile(pattern,flaq = 0) - Compile a regular expression pattern into a regular expression object, which can be used for matching.
+
+    match() - Determine if the RE matches at the beginning of the string.
+    search() - Scan through a string, looking for any location where this RE matches.
+    findall() - Find all substrings where the RE matches, and returns them as a list.
+    finditer() - Find all substrings where the RE matches, and returns them as an iterator.
