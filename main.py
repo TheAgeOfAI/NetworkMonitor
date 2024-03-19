@@ -2,12 +2,11 @@
 Hello Worls!
 This project is intended to monitor network traffic and display it in chart format.
 '''
-import getFiles as g
+from getFiles import Networking
 
 
 if __name__ == '__main__':
-
+    net = Networking()
     # print(os.getlogin())
-    g.filterAndAppend()
-
-    # g.pinger()
+    net.filter_block()
+    # net.site_ping_data()
