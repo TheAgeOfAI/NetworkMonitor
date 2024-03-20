@@ -1,0 +1,114 @@
+(
+2024:03:20-09:04:18-3
+PING google.com (142.250.195.78) 56(84) bytes of data.
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=1 ttl=118 time=38.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=2 ttl=118 time=12.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=3 ttl=118 time=12.7 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=4 ttl=118 time=12.7 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=5 ttl=118 time=15.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=6 ttl=118 time=13.5 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=7 ttl=118 time=13.5 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=8 ttl=118 time=13.5 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=9 ttl=118 time=11.0 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=10 ttl=118 time=14.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=11 ttl=118 time=14.4 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=12 ttl=118 time=14.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=13 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=14 ttl=118 time=76.4 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=16 ttl=118 time=14.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=17 ttl=118 time=14.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=18 ttl=118 time=13.6 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=19 ttl=118 time=13.4 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=20 ttl=118 time=13.6 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=21 ttl=118 time=13.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=22 ttl=118 time=12.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=23 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=24 ttl=118 time=13.0 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=25 ttl=118 time=12.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=26 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=27 ttl=118 time=13.5 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=28 ttl=118 time=13.0 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=29 ttl=118 time=13.7 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=30 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=31 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=32 ttl=118 time=13.5 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=33 ttl=118 time=16.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=34 ttl=118 time=13.3 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=35 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=36 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=37 ttl=118 time=14.0 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=38 ttl=118 time=13.9 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=39 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=40 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=41 ttl=118 time=13.2 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=42 ttl=118 time=17.6 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=43 ttl=118 time=12.8 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=44 ttl=118 time=13.4 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=45 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=46 ttl=118 time=13.4 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=47 ttl=118 time=13.3 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=48 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=49 ttl=118 time=13.1 ms
+64 bytes from maa03s38-in-f14.1e100.net (142.250.195.78): icmp_seq=50 ttl=118 time=14.1 ms
+
+--- google.com ping statistics ---
+50 packets transmitted, 49 received, 2% packet loss, time 49076ms
+rtt min/avg/max/mdev = 10.972/15.326/76.356/9.522 ms
+)
+(
+2024:03:20-09:45:29-3
+PING google.com (142.250.196.46) 56(84) bytes of data.
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=1 ttl=118 time=157 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=2 ttl=118 time=68.0 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=3 ttl=118 time=17.6 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=4 ttl=118 time=29.0 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=5 ttl=118 time=203 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=6 ttl=118 time=129 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=7 ttl=118 time=74.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=8 ttl=118 time=40.2 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=9 ttl=118 time=149 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=10 ttl=118 time=16.5 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=11 ttl=118 time=160 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=12 ttl=118 time=123 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=13 ttl=118 time=13.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=14 ttl=118 time=33.1 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=15 ttl=118 time=31.5 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=16 ttl=118 time=18.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=17 ttl=118 time=21.9 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=18 ttl=118 time=25.5 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=19 ttl=118 time=26.8 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=20 ttl=118 time=12.9 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=21 ttl=118 time=17.4 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=22 ttl=118 time=97.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=23 ttl=118 time=15.8 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=24 ttl=118 time=13.6 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=25 ttl=118 time=13.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=26 ttl=118 time=13.5 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=27 ttl=118 time=15.8 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=28 ttl=118 time=22.6 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=29 ttl=118 time=12.5 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=30 ttl=118 time=123 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=31 ttl=118 time=89.2 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=32 ttl=118 time=246 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=33 ttl=118 time=184 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=34 ttl=118 time=11.4 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=35 ttl=118 time=42.4 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=36 ttl=118 time=104 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=37 ttl=118 time=122 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=38 ttl=118 time=71.2 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=39 ttl=118 time=31.6 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=40 ttl=118 time=27.9 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=41 ttl=118 time=21.3 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=42 ttl=118 time=60.4 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=43 ttl=118 time=66.7 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=44 ttl=118 time=13.8 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=45 ttl=118 time=45.8 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=46 ttl=118 time=169 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=47 ttl=118 time=146 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=48 ttl=118 time=488 ms
+64 bytes from maa03s45-in-f14.1e100.net (142.250.196.46): icmp_seq=49 ttl=118 time=22.6 ms
+
+--- google.com ping statistics ---
+50 packets transmitted, 49 received, 2% packet loss, time 49055ms
+rtt min/avg/max/mdev = 11.395/74.711/487.767/84.912 ms
+)
