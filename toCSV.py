@@ -1,10 +1,11 @@
 import multiprocessing
 import re
+from hosts import Hosts
 
 
-class MultipleFiles:
+class ConvertCSV(Hosts):
     def __init__(self):
-        self.hosts = ['google', 'duckduckgo', 'example', 'brave']
+        super(ConvertCSV, self).__init__()
         self.block_string = ''
         self.block_status = False
         self.pattern = re.compile(r"(\d+)\s+bytes\s+from\s+.*\s+.*time=(\d+\.?\d*)\s+ms")
@@ -20,6 +21,7 @@ class MultipleFiles:
         for process in processes:
             process.join()
 
+    # Helper Method
     def read_and_filter_file(self, host):
         try:
             with open(f'./data/txt/{host}.txt', 'r') as file:
@@ -39,6 +41,7 @@ class MultipleFiles:
         except Exception as e:
             print(f"Exception occurred while processing {host}: {e}")
 
+    # Helper Method
     def extract_ping(self, data):
         # Implement your logic to extract ping data here
         try:
@@ -54,12 +57,12 @@ class MultipleFiles:
                     for line in data[2:]:
                         ping = self.pattern.search(line)
                         if ping:
-                            fd.write(f'{time_data}, {site_data}, {ipaddress}, {ping.group(2)}\n')
+                            fd.write(f'{time_data},{site_data},{ipaddress},{ping.group(2)}\n')
             except Exception as e:
                 print("Exception with file.", e)
 
         except Exception as e:
-            print("Exception occured.", e)
+            print("Exception occurred.", e)
 
     @staticmethod
     def date_time_split(data):
@@ -74,11 +77,6 @@ class MultipleFiles:
         weekday = data.split('-')[2]
         weekend = 1 if weekday == 0 or weekday == 6 else 0
 
-        return (f'{year}, {month}, {date}, '
-                f'{hours}, {minutes}, {seconds}, '
-                f'{weekday}, {weekend}')
-
-
-if __name__ == '__main__':
-    mf = MultipleFiles()
-    mf.read_filter_block()
+        return (f'{year},{month},{date},'
+                f'{hours},{minutes},{seconds},'
+                f'{weekday},{weekend}')
