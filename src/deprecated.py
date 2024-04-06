@@ -1,7 +1,7 @@
 import csv
 import re
-from toCSV import ConvertCSV
-from ping import Ping
+from src.toCSV import ConvertCSV
+from src.ping import Ping
 
 
 class Deprecated(ConvertCSV, Ping):
@@ -10,8 +10,8 @@ class Deprecated(ConvertCSV, Ping):
         super(Deprecated, self).__init__()
         super(Deprecated, self).__init__()
         self.deprecated = './data/deprecated.csv'
-        self.ping_file = './data/ping.txt'
-        self.result_file = './data/result.csv'
+        self.ping_file = '../data/ping.txt'
+        self.result_file = '../data/result.csv'
         self.pattern_deprecated = re.compile(r"(\d+)\s+bytes\s+from\s+.*\s+([(\d.)]+).*time=(\d+\.?\d*)\s+ms")
 
     def extract_ping_deprecated(self) -> None:

@@ -32,3 +32,4 @@ class Archive:
 
     def clear_csv(self):
         self.clear_files('csv', self.csv_files)
+

@@ -1,9 +1,8 @@
-'''
-Hello Worls!
-This project is intended to monitor network traffic and display it in chart format.
-'''
+# Hello World!
+# This project is intended to monitor network traffic and display it in chart format.
 from deprecated import Deprecated
-from archiveIt import Archive
+from src.archiveIt import Archive
+
 
 class NetHandler(Deprecated):
     def __init__(self):
@@ -22,6 +21,7 @@ class NetHandler(Deprecated):
         print("Removing txt files from storage.")
         self.arc.clear_txt()
         print("Text Files cleared.")
+
 
 if __name__ == '__main__':
     net = NetHandler()

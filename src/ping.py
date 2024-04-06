@@ -1,3 +1,4 @@
+import os
 import platform
 import subprocess
 from multiprocessing import Process
@@ -28,6 +29,9 @@ class Ping(Hosts):
         ping_output, _ = ping_process.communicate()
 
         # Write the ping output to a file
-        with open(f'./data/txt/{host}.txt', 'a') as fd:
-            fd.write('(\n{}\n{})\n'.format(time.strftime('%Y:%m:%d-%X-%w'),
-                                           ping_output.decode('utf-8')))
+        try:
+            with open(f'./data/txt/{host}.txt', 'a') as fd:
+                fd.write('(\n{}\n{})\n'.format(time.strftime('%Y:%m:%d-%X-%w'),
+                                               ping_output.decode('utf-8')))
+        except FileNotFoundError as fnf:
+            print(f"Exception occurred, {fnf}")
